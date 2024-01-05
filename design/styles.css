@@ -1,0 +1,39 @@
+@font-face {
+    font-family: WorkSans;  
+    src: url(/assets/fonts/WorkSans-VariableFont_wght.ttf);
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+details > summary {
+    transition: all;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary >strong::after {
+    content: url('/assets/images/icon-plus.svg');
+}
+
+details[open] > summary> strong::after {
+    content: url('/assets/images/icon-minus.svg');
+    
+}
+
+details > summary > strong {
+    gap: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "name": "faq-accordion-main",
+  "description": "![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./design/styles.css -o ./styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doblel09/faq-accordion-main.git"
+  },
+  "keywords": [
+    "tailwind-css"
+  ],
+  "author": "Luis Florentino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doblel09/faq-accordion-main/issues"
+  },
+  "homepage": "https://github.com/doblel09/faq-accordion-main#readme"
+}
