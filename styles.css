@@ -579,10 +579,6 @@ video {
   height: 100vh;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-8 {
   width: 2rem;
 }
@@ -641,13 +637,13 @@ video {
   padding: 1.5rem;
 }
 
-.font-WorkSans {
-  font-family: WorkSans, WorkSans-Bold;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.font-WorkSans {
+  font-family: WorkSans, WorkSans-Bold;
 }
 
 .text-5xl {
@@ -725,9 +721,9 @@ details > summary > strong {
 }
 
 @media (min-width: 768px) {
-  .md\:my-6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .md\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .md\:max-h-\[40rem\] {
@@ -744,5 +740,18 @@ details > summary > strong {
 
   .md\:bg-\[url\(\'\/assets\/images\/background-pattern-desktop\.svg\'\)\] {
     background-image: url('/assets/images/background-pattern-desktop.svg');
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
   }
 }
